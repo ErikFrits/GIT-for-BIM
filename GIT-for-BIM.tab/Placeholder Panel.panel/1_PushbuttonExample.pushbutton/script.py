@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-__title__   = "Pushbutton"
+__title__   = "New Button Name"
 __doc__     = """Version = 1.0
-Date    = 01.01.2026
+Date    = 24.10.2026
 ________________________________________________________________
 Description:
 Placeholder for pyRevit .pushbutton.
@@ -18,13 +18,9 @@ To-Do:
 [FEATURE] - Describe Your Feature...
 [BUG]     - Describe Your BUG...
 
+
 ________________________________________________________________
-Last Updates:
-- [01.01.2026] v1.0 Change Description
-- [01.01.2026] v0.5 Change Description
-- [01.01.2026] v0.1 Change Description 
-________________________________________________________________
-Author: Erik Frits (from LearnRevitAPI.com)"""
+Author: Erik Frits"""
 
 # ╦╔╦╗╔═╗╔═╗╦═╗╔╦╗╔═╗
 # ║║║║╠═╝║ ║╠╦╝ ║ ╚═╗
@@ -58,10 +54,8 @@ output = script.get_output()                 # pyRevit Output Menu
 
 
 
-#🚧 Remove This Code Example
-from reusable_code._example import default_print    # import reusable code from .../lib/reusable_code/_example.py
-default_print(btn_name=__title__)                   # Display default print message
-
+for i in range(100):
+    print("Hello World!")
 
 
 #███████████████████████████████████████████████████████████████████████████
