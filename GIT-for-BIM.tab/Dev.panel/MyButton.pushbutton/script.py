@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__title__ = "Button on Branch."
+__title__ = "Button on Main"
 __doc__     = """Version = 1.0
 Date    = 01.01.2026
 ________________________________________________________________
@@ -57,9 +57,12 @@ output = script.get_output()                 # pyRevit Output Menu
 #🤖 Automate Your Boring Work Here
 
 
-print("Button on Branch!")         # Display default print message
 
+#🚧 Remove This Code Example
+from reusable_code._example import default_print    # import reusable code from .../lib/reusable_code/_example.py
+default_print(btn_name=__title__)                   # Display default print message
 
+print('Button on Main.')
 
 #███████████████████████████████████████████████████████████████████████████
 # Happy Coding!
