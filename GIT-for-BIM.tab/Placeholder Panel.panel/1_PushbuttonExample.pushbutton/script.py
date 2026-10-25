@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__title__   = "Pushbutton"
+__title__   = "Pushbutton[on Main]"
 __doc__     = """Version = 1.0
 Date    = 01.01.2026
 ________________________________________________________________
