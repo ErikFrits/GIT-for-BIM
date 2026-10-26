@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# COnfigs
+reports/desktop.ini
+
+# Code Junk
+/.idea
+*.bak
+Thumbs.db
+*.pyc
+*.log
+.DS_Store
+*.swp
+*.tmp
+/.vscode
+
+# Revit & Office
+*.rfa
+*.rvt
+*.xlsx
+*.csv
